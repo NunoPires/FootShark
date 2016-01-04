@@ -1,0 +1,14 @@
+Tamanho do layout: 4000 x 2048 px
+
+Primeiro Layer: Background (Inserir Tiled Background, ajustar para tamanho do layout)
+
+Segundo layer: Main (onde colocamos plataformas e o jogador)
+
+Plataformas: definir diferentes frames para os quadrados, colocar a animaçao do objeto a 0 para nao mudar de frames, CTRL + rato para duplicar no layout,
+fazer set do initial frame consoante o frame que queremos para cada um dos quadrados. Solid Behaviour
+
+Player : tem 2 animações definidas (import frames from files)
+
+Player Box: objeto inivisível ao qual damos o comportamento de Platformer, para que o sistema de colisoes funcione bem. 
+A sprite do player simplesmente vai atrás dessa box. Ver os valores para jump strength, gravity, etc.
+

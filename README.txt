@@ -1,6 +1,6 @@
-Para contribuirem para o repositório:
+Para contribuirem para o repositorio:
 
-Install Git (escolher todas as opções default): http://git-scm.com/download/win
+Install Git (escolher todas as opcoes default): http://git-scm.com/download/win
 
 Criar conta no Github.com (anotar username e password)
 
@@ -20,18 +20,19 @@ Abrir Git Bash e executar o seguinte:
 
 7) git config --global user.name "Tchusda"
 
-(Fazem alterações no ficheiro, e fazem overwrite aos ficheiros nesta pasta)
+8) Criar um branch vosso: git checkout -b tchusda_footshark
 
-8) git add FootShark.capx (depois de terem actualizado o projecto por exemplo)
+(Fazem alteracoes no ficheiro, e fazem overwrite aos ficheiros nesta pasta)
 
-9) git commit -m "Fiz isto, isto e isto"
+9) git add FootShark.capx (depois de terem actualizado o projecto por exemplo)
 
-10) git push origin master *usar as credenciais do GitHub
+10) git commit -m "Fiz isto, isto e isto"
+
+11) git push origin tchusda_footshark (usar as credenciais do GitHub)
 
 Para verem o que os outros andam a fazer: 
 
-11) git remote update
-12) gitk
+12) git remote update + gitk
 
 
 
